@@ -1,1 +1,16 @@
 npx tailwindcss -i ./input.css -o ./output.css --watch
+
+git checkout -b "new-branch"
+
+new branch ကနေလည်း  checkout ပြန်ထွက်လို့ရတယ်။
+
+ပေါင်းမယ်ဆိုရင် github က pull request ဆွဲ
+base - ပေါင်းမယ့် branch
+compare - လာထည့်မယ့် branch
+
+git fetch --prune  
+local နဲ့ remote sync လုပ်တာ။
+
+
+git push origin --delete tailwind-page   
+local ကနေ remote branch ကိုလှမ်းဖျက်တာ။
