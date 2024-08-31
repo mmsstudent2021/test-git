@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Build output directories
+dist/
+build/
+
+# OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Package lock files (if you don't want to commit them)
+package-lock.json
+yarn.lock
+
+# Test coverage reports
+coverage/
+
+# TypeScript build info files
+*.tsbuildinfo
+
+# Docker files
+.docker/
+
+# Secrets and keys
+.secret/
+
+# Compiled source files
+*.out
+*.class
+
+# Other tool-specific files
+.npm/
+.yarn/
